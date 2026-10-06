@@ -1,0 +1,15 @@
+{
+  "protocol": "solver.Solver.test(mode='test') without DDP",
+  "chunks": 154,
+  "test_lens_sec": 6.0,
+  "ours": {
+    "l2": 0.0002337597466361945,
+    "amplitude": 0.03877142237426786,
+    "phase": 1.294694847100741
+  },
+  "paper_table1_nfs": {
+    "l2": 0.000172,
+    "amplitude": 0.035,
+    "phase": 0.999
+  }
+}

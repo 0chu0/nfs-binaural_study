@@ -1,0 +1,74 @@
+[
+  {
+    "subject": "subject1",
+    "mp4_mb": 14.4,
+    "video": true,
+    "audio": true,
+    "dur_s": 116.0,
+    "temp_frames": 2281
+  },
+  {
+    "subject": "subject2",
+    "mp4_mb": 13.8,
+    "video": true,
+    "audio": true,
+    "dur_s": 120.0,
+    "temp_frames": 2410
+  },
+  {
+    "subject": "subject3",
+    "mp4_mb": 13.9,
+    "video": true,
+    "audio": true,
+    "dur_s": 116.0,
+    "temp_frames": 2330
+  },
+  {
+    "subject": "subject4",
+    "mp4_mb": 13.5,
+    "video": true,
+    "audio": true,
+    "dur_s": 115.0,
+    "temp_frames": 2310
+  },
+  {
+    "subject": "subject5",
+    "mp4_mb": 14.6,
+    "video": true,
+    "audio": true,
+    "dur_s": 120.0,
+    "temp_frames": 2410
+  },
+  {
+    "subject": "subject6",
+    "mp4_mb": 14.1,
+    "video": true,
+    "audio": true,
+    "dur_s": 119.0,
+    "temp_frames": 2390
+  },
+  {
+    "subject": "subject7",
+    "mp4_mb": 13.9,
+    "video": true,
+    "audio": true,
+    "dur_s": 118.0,
+    "temp_frames": 2370
+  },
+  {
+    "subject": "subject8",
+    "mp4_mb": 12.9,
+    "video": true,
+    "audio": true,
+    "dur_s": 110.0,
+    "temp_frames": 2210
+  },
+  {
+    "subject": "validation_sequence",
+    "mp4_mb": 10.7,
+    "video": true,
+    "audio": true,
+    "dur_s": 85.0,
+    "temp_frames": 1710
+  }
+]

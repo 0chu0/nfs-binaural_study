@@ -1,0 +1,41 @@
+{
+  "protocol": "solver.Solver.test(mode='test') \u540c\u53e3\u5f84 6 s \u5206\u5757\uff08\u65e0 DDP\uff09",
+  "chunks": 154,
+  "test_lens_sec": 6.0,
+  "stft_config_auraloss_default": {
+    "fft_sizes": [
+      1024,
+      2048,
+      512
+    ],
+    "hop_sizes": [
+      120,
+      240,
+      50
+    ],
+    "win_lengths": [
+      600,
+      1200,
+      240
+    ]
+  },
+  "pesq_chunks_ok": 0,
+  "ours": {
+    "l2": 0.00023376120754454115,
+    "amplitude": 0.03877102380449122,
+    "phase": 1.294595822885439,
+    "stft": 1.2978454162548114,
+    "pesq": null
+  },
+  "paper_table1_nfs": {
+    "l2": 0.000172,
+    "amplitude": 0.035,
+    "phase": 0.999,
+    "pesq": 1.656,
+    "stft": 1.241
+  },
+  "notes": [
+    "L_STFT \u7528 auraloss \u9ed8\u8ba4 MRSTFT \u53c2\u6570\uff0c\u8bba\u6587\u672a\u516c\u5e03\u5176\u8d85\u53c2\uff0c\u6545\u4e3a\u540c\u65cf\u6307\u6807\u5bf9\u7167\u3002",
+    "PESQ \u4e3a L/R \u4e0b\u6df7\u540e 16 kHz \u5bbd\u5e26\u53e3\u5f84\uff1b\u8bba\u6587\u672a\u8bf4\u660e\u58f0\u9053\u5904\u7406\u65b9\u5f0f\u3002"
+  ]
+}

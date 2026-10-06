@@ -1,0 +1,31 @@
+# ===== 大数据：仅排除训练集（含 >100MB 单文件，GitHub 直推硬限拒绝）=====
+# 训练集约 1.9 GB，且 8 个 binaural.wav > 100 MB，需从上游发布版单独下载后软链。
+nfs-binaural/dataset/benchmark/trainset/
+
+# 以下结果产物均 < 100 MB/文件，已纳入版本库（作为复现结果展示）：
+#   - nfs-binaural/dataset/benchmark/testset/   测试集输入（评估/演示用）
+#   - nfs-binaural/benchmark_eval/              NFS 渲染双耳音频输出
+#   - nfs-binaural/demo_video/                  逐受试者演示视频
+
+# ===== Python 本地环境 / 缓存 =====
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# ===== 操作系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ===== 临时产物 / 本地辅助 =====
+probe/
+_installers/
+_refs/
+*.log
+
+# 允许推送的小权重（显式放行，防止被父级忽略误伤）
+!nfs-binaural/ckpt/nfs_1353.pt
