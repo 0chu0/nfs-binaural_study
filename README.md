@@ -2,7 +2,7 @@
 
 > 对 ICASSP 2023 论文 **《Neural Fourier Shift for Binaural Speech Rendering》** 的独立复现、验证与归因研究。
 > 本仓库不是对原项目的搬运，而是在 Windows + RTX 4060 + PyTorch 2.x 环境下重新跑通推理与评测，并对"为何与论文基线存在残余差距"做了归因。
-
+> 补充：初次跑通是2025.03-2025.07，在2026.10对项目进行了重新整合并推上GitHub
 ---
 
 ## 1. 项目概要
