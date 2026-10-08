@@ -1,7 +1,7 @@
 # NFS 双耳语音渲染 · 复现研究（Neural Fourier Shift Reproduction Study）
 
 > 对 ICASSP 2023 论文 **《Neural Fourier Shift for Binaural Speech Rendering》** 的独立复现、验证与归因研究。
-> 本仓库不是对原项目的简单搬运，而是在 Windows + RTX 4060 + PyTorch 2.x 环境下重新跑通推理与评测，并对"为何与论文基线存在残余差距"做了系统性归因。
+> 本仓库不是对原项目的搬运，而是在 Windows + RTX 4060 + PyTorch 2.x 环境下重新跑通推理与评测，并对"为何与论文基线存在残余差距"做了归因。
 
 ---
 
